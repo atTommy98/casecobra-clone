@@ -1,3 +1,4 @@
+// Splits array into array of arrays of length numParts
 export function splitArray<T>(array: Array<T>, numParts: number) {
   const result: Array<Array<T>> = [];
 

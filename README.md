@@ -1,3 +1,5 @@
+# Casecobra e-Commerce Clone
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +36,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Acknowledgements
+
+- [Josh tried coding](https://www.youtube.com/@joshtriedcoding) for the awesome tutorial and inclusion on the creation of this application (Including assets from an illustrator, specific video [here](https://www.youtube.com/watch?v=SG82Aqcaaa0))
+
+## Technologies
+
+- Login auth using [Kinde](https://kinde.com/)
+- [Shadcn/ui ](https://ui.shadcn.com/) for the theme setup, tailwind classname helper, and recommendation of icon library [lucide-react](https://lucide.dev/)
+- [Framer Motion](https://www.framer.com/motion/) for help with animations
+- TailwindCSS, NextJS14
