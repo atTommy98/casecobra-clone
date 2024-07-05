@@ -46,4 +46,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Login auth using [Kinde](https://kinde.com/)
 - [Shadcn/ui ](https://ui.shadcn.com/) for the theme setup, tailwind classname helper, and recommendation of icon library [lucide-react](https://lucide.dev/)
 - [Framer Motion](https://www.framer.com/motion/) for help with animations
+- [React Dropzone](https://www.npmjs.com/package/react-dropzone) to drag and drop files
 - TailwindCSS, NextJS14
