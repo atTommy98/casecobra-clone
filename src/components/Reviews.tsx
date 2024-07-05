@@ -29,6 +29,7 @@ const animationDelay =
     Math.floor(Math.random() * POSSIBLE_ANIMATION_DELAYS.length)
   ];
 
+// Create columns of reviews
 function ReviewColumn({
   reviews,
   className,
@@ -78,6 +79,7 @@ interface ReviewProps extends HTMLAttributes<HTMLDivElement> {
   imgSrc: string;
 }
 
+//
 function Review({ imgSrc, className, ...props }: ReviewProps) {
   return (
     <div
@@ -92,6 +94,7 @@ function Review({ imgSrc, className, ...props }: ReviewProps) {
   );
 }
 
+// Create columns and make visible based on screen width
 function ReviewGrid() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const isInView = useInView(containerRef, {
@@ -106,7 +109,7 @@ function ReviewGrid() {
   return (
     <div
       ref={containerRef}
-      className=" relative -mx-4 mt-16 grid h-[49rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-4 sm:mt-20 md:grid-cols-2 lg:grid-cols-3">
+      className="relative -mx-4 mt-16 grid h-[49rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-4 sm:mt-20 md:grid-cols-2 lg:grid-cols-3">
       {isInView ? (
         <>
           <ReviewColumn
