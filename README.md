@@ -41,10 +41,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - [Josh tried coding](https://www.youtube.com/@joshtriedcoding) for the awesome tutorial and inclusion on the creation of this application (Including assets from an illustrator, specific video [here](https://www.youtube.com/watch?v=SG82Aqcaaa0))
 
-## Technologies
+## Technologies and Acknowledgements
 
 - Login auth using [Kinde](https://kinde.com/)
 - [Shadcn/ui ](https://ui.shadcn.com/) for the theme setup, tailwind classname helper, and recommendation of icon library [lucide-react](https://lucide.dev/)
 - [Framer Motion](https://www.framer.com/motion/) for help with animations
 - [React Dropzone](https://www.npmjs.com/package/react-dropzone) to drag and drop files
+- [uploadthing](https://uploadthing.com/) to upload files
 - TailwindCSS, NextJS14
